@@ -1,20 +1,20 @@
-#!/usr/bin/env bash
+ï»¿#!/usr/bin/env bash
 git config user.name "StayZeal"
 git config user.email "543294760@qq.com"
 git add .
 commit(){
   str="$1"
   #echo "$1"
-  echo "¿ªÊ¼Ìá½»£º$str"
+  echo "å¼€å§‹æäº¤ï¼š$str"
   if [ -z "$str" ]; then
      str="default commit msg"
   #else
   #  str="$1"
   fi
   git commit -m"$str"
-  echo "Ìá½»ĞÅÏ¢£º$str"
+  echo "æäº¤ä¿¡æ¯ï¼š$str"
 }
 commit "$1"
 git push
-#´ò¿ªÍøÒ³
-https://github.com/StayZeal/ToolShell
+#æ‰“å¼€ç½‘é¡µ
+x-www-browser 'https://github.com/StayZeal/ToolShell'
